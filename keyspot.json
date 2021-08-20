@@ -1,0 +1,26 @@
+ 
+{
+    "version": "1.0.9",
+    "description": "KeySpot CLI tool for accessing records and injecting variables into an environment without needing .env files.",
+    "homepage": "https://keyspot.app",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/KeySpot/scoop-bucket",
+            "url": "https://github.com/aws/copilot-cli/releases/download/v1.9.0/copilot-windows.exe#/copilot.exe",
+            "hash": "0476b0b22107bebbf22bb9779eddb1aaaba8f9a1e38c8adb2e1e9492f0169476"
+        }
+    },
+    "bin": "copilot.exe",
+    "checkver": {
+        "github": "https://github.com/keyspot/keyspot"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/aws/copilot-cli/releases/download/v$version/copilot-windows.exe#/copilot.exe"
+            }
+        }
+    }
+}
+ 
