@@ -6,15 +6,13 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/KeySpot/scoop-bucket/tree/main/keyspot_windows_amd64/keyspot.exe"
+            "url": "https://github.com/KeySpot/scoop-bucket/tree/main/keyspot_windows_amd64/keyspot.exe",
+            "bin": "keyspot.exe"
         },
         "32bit": {
-            "url": "https://github.com/KeySpot/scoop-bucket/blob/main/keyspot_windows_386/keyspot.exe"
+            "url": "https://github.com/KeySpot/scoop-bucket/blob/main/keyspot_windows_386/keyspot.exe",
+            "bin": "keyspot.exe"
         }
-    },
-    "bin": "keyspot.exe",
-    "checkver": {
-        "github": "https://github.com/keyspot/keyspot"
     },
     "autoupdate": {
         "architecture": {
