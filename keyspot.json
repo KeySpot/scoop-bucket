@@ -6,21 +6,21 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/KeySpot/scoop-bucket/tree/main/keyspot_windows_amd64/keyspot.exe",
+            "url": "https://github.com/KeySpot/keyspot/releases/download/v1.0.9/keyspot_1.0.9_Windows_x86_64.tar.gz",
             "bin": "keyspot.exe"
         },
         "32bit": {
-            "url": "https://github.com/KeySpot/scoop-bucket/blob/main/keyspot_windows_386/keyspot.exe",
+            "url": "https://github.com/KeySpot/keyspot/releases/download/v1.0.9/keyspot_1.0.9_Windows_i386.tar.gz",
             "bin": "keyspot.exe"
         }
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/KeySpot/scoop-bucket/tree/main/keyspot_windows_amd64/keyspot.exe"
+                "url": "https://github.com/KeySpot/keyspot/releases/download/v1.0.9/keyspot_1.0.9_Windows_x86_64.tar.gz"
             },
             "32bit": {
-                "url": "https://github.com/KeySpot/scoop-bucket/blob/main/keyspot_windows_386/keyspot.exe"
+                "url": "https://github.com/KeySpot/keyspot/releases/download/v1.0.9/keyspot_1.0.9_Windows_i386.tar.gz"
             }
         }
     }
