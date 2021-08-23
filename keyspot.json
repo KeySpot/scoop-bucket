@@ -1,28 +1,26 @@
- 
 {
-    "version": "1.0.9",
-    "description": "KeySpot CLI tool for accessing records and injecting variables into an environment without needing .env files.",
-    "homepage": "https://keyspot.app",
-    "license": "MIT",
-    "architecture": {
-        "64bit": {
-            "url": "https://github.com/KeySpot/keyspot/releases/download/v1.0.9/keyspot_1.0.9_Windows_x86_64.tar.gz",
-            "bin": "keyspot.exe"
-        },
-        "32bit": {
-            "url": "https://github.com/KeySpot/keyspot/releases/download/v1.0.9/keyspot_1.0.9_Windows_i386.tar.gz",
-            "bin": "keyspot.exe"
-        }
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/KeySpot/keyspot/releases/download/v1.0.9/keyspot_1.0.9_Windows_x86_64.tar.gz"
-            },
-            "32bit": {
-                "url": "https://github.com/KeySpot/keyspot/releases/download/v1.0.9/keyspot_1.0.9_Windows_i386.tar.gz"
-            }
-        }
-    }
+	"version": "1.0.25",
+	"description": "KeySpot CLI tool for accessing records and injecting variables into an environment without needing .env files.",
+	"homepage": "https://keyspot.app",
+	"license": "MIT",
+	"architecture": {
+		"64bit": {
+			"url": "https://github.com/KeySpot/cli-tool/releases/download/v1.0.25/cli-tool_1.0.25_Windows_x86_64.tar.gz",
+			"bin": [ [ "cli-tool.exe", "keyspot.exe" ] ]
+		},
+		"32bit": {
+			"url": "https://github.com/KeySpot/cli-tool/releases/download/v1.0.25/cli-tool_1.0.25_Windows_i386.tar.gz",
+			"bin": [ [ "cli-tool.exe", "keyspot.exe" ] ]
+		}
+	},
+	"autoupdate": {
+		"architecture": {
+			"64bit": {
+				"url": "https://github.com/KeySpot/cli-tool/releases/download/v1.0.25/cli-tool_1.0.25_Windows_x86_64.tar.gz"
+			},
+			"32bit": {
+				"url": "https://github.com/KeySpot/cli-tool/releases/download/v1.0.25/cli-tool_1.0.25_Windows_i386.tar.gz"
+			}
+		}
+	}
 }
- 
