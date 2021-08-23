@@ -6,11 +6,11 @@
 	"architecture": {
 		"64bit": {
 			"url": "https://github.com/KeySpot/cli-tool/releases/download/v1.0.25/cli-tool_1.0.25_Windows_x86_64.tar.gz",
-			"bin": [ "cli-tool.exe", [ "keyspot" ] ]
+			"bin": [ "cli-tool.exe", [ "keyspot.exe", "keyspot" ] ]
 		},
 		"32bit": {
 			"url": "https://github.com/KeySpot/cli-tool/releases/download/v1.0.25/cli-tool_1.0.25_Windows_i386.tar.gz",
-			"bin": [ "cli-tool.exe", [ "keyspot" ] ]
+			"bin": [ "cli-tool.exe", [ "keyspot.exe", "keyspot" ] ]
 		}
 	},
 	"autoupdate": {
